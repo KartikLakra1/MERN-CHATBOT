@@ -156,7 +156,7 @@ const FormContainer = styled.div`
     text-transform: uppercase;
     a {
       padding: 2px;
-      color: white;
+      color: red;
       text-decoration: none;
       font-weight: bold;
     }

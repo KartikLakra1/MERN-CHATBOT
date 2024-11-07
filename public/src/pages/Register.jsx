@@ -154,7 +154,7 @@ const FormContainer = styled.div`
     flex-direction: column;
     gap: 2rem;
     background-color: black;
-    border-radius: 10%;
+    border-radius: 0;
     padding: 3rem 5rem;
   }
   input {
@@ -171,8 +171,8 @@ const FormContainer = styled.div`
     }
   }
   button {
-    background-color: #4e0eff;
-    color: white;
+    background-color: white;
+    color: black;
     padding: 1rem 2rem;
     border: none;
     font-weight: bold;
@@ -181,14 +181,15 @@ const FormContainer = styled.div`
     font-size: 1rem;
     text-transform: uppercase;
     &:hover {
-      background-color: #4e0eff;
+      background-color: black;
+      color: white;
     }
   }
   span {
     color: white;
     text-transform: uppercase;
     a {
-      color: #4e0eff;
+      color: red;
       text-decoration: none;
       font-weight: bold;
     }
