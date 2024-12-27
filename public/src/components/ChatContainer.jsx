@@ -118,6 +118,7 @@ const Container = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #c0c2c9;
     padding: 0 2rem;
     .user-details {
       display: flex;
@@ -167,13 +168,14 @@ const Container = styled.div`
     .sended {
       justify-content: flex-end;
       .content {
-        background-color: #4f04ff21;
+        background-color: blue;
+        color: white;
       }
     }
     .recieved {
       justify-content: flex-start;
       .content {
-        background-color: #9900ff20;
+        background-color: #9900ff27;
       }
     }
   }

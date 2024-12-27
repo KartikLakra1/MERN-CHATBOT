@@ -70,7 +70,7 @@ const Container = styled.div`
   display: grid;
   grid-template-rows: 10% 75% 15%;
   overflow: hidden;
-  background-color: yellow;
+  background-color: #add8e6;
   .brand {
     display: flex;
     align-items: center;
@@ -102,7 +102,7 @@ const Container = styled.div`
       background-color: black;
       min-height: 5rem;
       cursor: pointer;
-      width: 90%;
+      width: 95%;
       border-radius: 0.2rem;
       padding: 0.4rem;
       display: flex;
@@ -121,7 +121,7 @@ const Container = styled.div`
       }
     }
     .selected {
-      background-color: #9a86f3;
+      background-color: orange;
     }
   }
 
